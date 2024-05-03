@@ -38,3 +38,34 @@
 <p>Os métodos abstratos são úteis para definir um contrato comum para um conjunto de classes relacionadas, permitindo que diferentes implementações forneçam comportamentos específicos para cada classe.</p>
 
 <p>Compreender o uso de métodos abstratos é fundamental para projetar hierarquias de classes flexíveis e reutilizáveis em Java.</p>
+
+<h3>Projeto UML:</h3>
+
+ <p align="center">
+  <img src="https://github.com/hildocosta/Metodos_Abstratos/blob/main/imagem_01.png">
+</p>
+
+<h3>Exemplo:</h3>
+
+Fazer um programa para ler os dados de N figuras(N fornecido pelo usuário), e depois mostrar as áreas destar figuras na mesma ordem em que foram digitadas.
+
+```
+Enter the number of shapes: 2
+
+Shape #1 data:
+
+Rectangle or Circle (r/c)? r
+Color (BLACK/BLUE/RED): BLACK
+Width: 4.0
+Height: 5.0
+
+Shape #2 data:
+
+Rectangle or Circle (r/c)? r
+Color (BLACK/BLUE/RED): RED
+Radius: 3.0
+
+SHAPE AREAS:
+20.00
+29.61
+```

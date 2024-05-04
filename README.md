@@ -113,7 +113,7 @@ Alex: $ 11500.00
 SoftTech: $ 5600.00
 Bob: $ 29500.00
 
-TOTAL TAXES: $ 97000.00
+TOTAL TAXES: $ 46600.00
 
 
 ```

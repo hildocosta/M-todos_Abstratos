@@ -45,9 +45,9 @@
   <img src="https://github.com/hildocosta/Metodos_Abstratos/blob/main/imagem_01.png">
 </p>
 
-<h3>Exemplo:</h3>
+<h2> Exercício - 01</h2>
 
-Fazer um programa para ler os dados de N figuras(N fornecido pelo usuário), e depois mostrar as áreas destar figuras na mesma ordem em que foram digitadas.
+<p>💥 Fazer um programa para ler os dados de N figuras(N fornecido pelo usuário), e depois mostrar as áreas destar figuras na mesma ordem em que foram digitadas. </p>
 
 ```
 Enter the number of shapes: 2
@@ -68,4 +68,52 @@ Radius: 3.0
 SHAPE AREAS:
 20.00
 29.61
+```
+
+<h2> Exercício - 02</h2>
+
+<p>💥 Fazer um programa para ler os dados de N contribuintes (N fornecido pelo usuario), os quais podem ser pessoa fisica ou pessoa juridica, e depois mostrar o valor do imposto pago por cada um, bem como o total de imposto arrecadado.
+
+Os dados de pessoa fisica sao: nome, renda anual e gastos com saude. Os dados de pessoa juridica sao nome, renda anual e numero de funcionarios. As regras para calculo de imposto sao as seguintes:
+
+**Pessoa Fisica:** pessoas cuja renda foi abaixo de 20000.00 pagam 15% de imposto. Pessoas com renda de 20000.00 em diante pagam 25% de imposto. Se a pessoa teve gastos com saude, 50% destes gastos sao abatidos no imposto.
+
+**Exemplo:** uma pessoa cuja renda foi 50000.00 e teve 2000.00 em gastos com saude, o imposto fica: (50000.00 * 25%) - (2000.00 * 50%) = **11500.00**
+
+**Pessoa Juridica:** pessoas juridicas pagam 16% de imposto. Porem, se a empresa possuir mais de 10 funcionarios, ele paga 14% de imposto.
+
+**Exemplo:** pessoas cuja renda foi 40000.00 e possui 25 funcionarios, o imposto fica:(40000.00 * 14%) = **560000.00** </p>
+
+```
+Enter the number of tax payers: 3
+Tax payer #1 data:
+
+Individual or company(i/c)? i
+Name: Alex
+Anual income: 50000.00
+Health expenditures: 2000.00
+
+Tax payer #2 data:
+
+Individual or company(i/c)? c
+Name: SoftTech
+Anual income: 40000.00
+Number of employee: 25
+
+Tax payer #3 data:
+
+Individual or company(i/c)? i
+Name: Bob
+Anual income: 120000.00
+Health expenditures: 1000.00
+
+TAXES PAID:
+
+Alex: $ 11500.00
+SoftTech: $ 5600.00
+Bob: $ 29500.00
+
+TOTAL TAXES: $ 97000.00
+
+
 ```
